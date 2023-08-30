@@ -19,8 +19,8 @@ html, body {
 }
 
 #scores {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: 'Arial', sans-serif;
     font-size: 34px;
     padding: 10px;
