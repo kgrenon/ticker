@@ -1,0 +1,37 @@
+/* styles.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents any scrolling */
+}
+
+.ticker {
+    overflow: hidden;
+    width: 100%; /* Adjust this width for your design */
+    margin: 0 auto; /* Center the ticker on the page */
+}
+
+.scrolling-wrapper {
+    display: inline-block;
+    animation: scroll 800s linear infinite;
+    white-space: nowrap;
+}
+
+#scores {
+    background-color: white;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 34px;
+    padding: 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
