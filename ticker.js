@@ -1,5 +1,5 @@
 const date = '20230830';  // Assuming you want to get scores for August 30, 2023
-const endpoint = 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard';
+const endpoint = 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard';
 
 let currentScores = "";  // This will keep track of the scores currently displayed
 
