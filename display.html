@@ -19,12 +19,18 @@
 <body>
     <h2 id="flavorCountTitle">
         <!-- This will be dynamically updated -->
-        <span id="flavorCount">0</span> Flavors of Ice Cream available right now at WWCC!
+        <span id="flavorCount">0</span> Flavors of Ice Cream available right now at WWCC! - <span id="currentDate"></span>
     </h2>
     <ul id="displayList">
         <!-- Flavors will be appended here with remove buttons -->
     </ul>
 
     <script src="scripts.js"></script>
+    <script>
+        // JavaScript to update the current date in the title
+        const date = new Date();
+        const formattedDate = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
+        document.getElementById('currentDate').innerText = formattedDate;
+    </script>
 </body>
 </html>
